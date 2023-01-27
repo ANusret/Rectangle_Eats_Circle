@@ -238,7 +238,7 @@ int main()
         BeginDrawing();
         ClearBackground(WHITE);
 
-        DrawText("Press q for 1 player mode \nPress e for 2 player mode", 220, 190, 22, BLACK);
+        DrawText("Press q for 1 player mode \nPress e for 2 player mode", 170, 160, 22, BLACK);
 
         if (IsKeyDown(KEY_Q))
         {
