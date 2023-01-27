@@ -71,43 +71,43 @@ int main()
             // circle movement controller
             if (IsKeyDown(KEY_D) && circle_x < width)
             {
-                circle_x += 10;
+                circle_x += 12;
             }
 
             if (IsKeyDown(KEY_A) && circle_x > 0)
             {
-                circle_x -= 10;
+                circle_x -= 12;
             }
 
             if (IsKeyDown(KEY_S) && circle_y < height)
             {
-                circle_y += 10;
+                circle_y += 12;
             }
 
             if (IsKeyDown(KEY_W) && circle_y > 0)
             {
-                circle_y -= 10;
+                circle_y -= 12;
             }
 
             // rectangle movement controller
             if (IsKeyDown(KEY_RIGHT) && rectangle_x < 600)
             {
-                rectangle_x += 10;
+                rectangle_x += 8;
             }
 
             if (IsKeyDown(KEY_LEFT) && rectangle_x > 0)
             {
-                rectangle_x -= 10;
+                rectangle_x -= 8;
             }
 
             if (IsKeyDown(KEY_DOWN) && rectangle_y < 400)
             {
-                rectangle_y += 10;
+                rectangle_y += 8;
             }
 
             if (IsKeyDown(KEY_UP) && rectangle_y > 0)
             {
-                rectangle_y -= 10;
+                rectangle_y -= 8;
             }
         }
 
