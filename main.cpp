@@ -5,7 +5,7 @@ void oneplayer()
     // window dimension
     int width{600};
     int height{400};
-    InitWindow(width, height, "R_eat_C");
+    InitWindow(width, height, "R_eats_C");
 
     // circle coordinates
     int circle_x{300};
@@ -111,7 +111,7 @@ void twoplayer()
     // window dimension
     int width{600};
     int height{400};
-    InitWindow(width, height, "R_eat_C");
+    InitWindow(width, height, "R_eats_C");
 
     // circle coordinates
     int circle_x{300};
@@ -228,7 +228,7 @@ int main()
 {
     int width{600};
     int height{400};
-    InitWindow(width, height, "R_eat_C");
+    InitWindow(width, height, "R_eats_C");
 
     SetTargetFPS(30);
 
