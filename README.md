@@ -1,8 +1,8 @@
-# rectangle_eat_circle
+# Rectangle_Eats_Circle
 
  Karenin yuvarlağı yediği küçük bir oyun.
 
- A mini game "rectangle eat circle". 
+ A mini game "rectangle eats circle". 
 
 Oyun raylib kütüphanesi kullanılarak yazılmıştır. Raylib açık kaynaklı bir kütüphanedir. Bu kütüphane grafiksel uygulamalar ve oyunlar oluşturmak için yapılmıştır.
 
