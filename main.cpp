@@ -36,7 +36,7 @@ void oneplayer()
 
     SetTargetFPS(30);
 
-    while (WindowShouldClose() == false)
+    while (!WindowShouldClose())
     {
 
         BeginDrawing();
@@ -139,7 +139,7 @@ void twoplayer()
 
     SetTargetFPS(30);
 
-    while (WindowShouldClose() == false)
+    while (!WindowShouldClose())
     {
 
         BeginDrawing();
@@ -232,7 +232,7 @@ int main()
 
     SetTargetFPS(30);
 
-    while (WindowShouldClose() == false)
+    while (!WindowShouldClose())
     {
 
         BeginDrawing();
