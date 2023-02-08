@@ -1,8 +1,11 @@
 # Rectangle_Eats_Circle
 
- Karenin yuvarlağı yediği küçük bir oyun.
+ Karenin yuvarlağı yediği küçük bir oyun. Lütfen projeyi çalıştırmak için aşağıdaki linkte bulunan dosyayı indiriniz.
 
- A mini game "rectangle eats circle". 
+ A mini game "rectangle eats circle". Please download the project in the link below to run it.
+ 
+ Raylib Link: https://www.raylib.com/
+ 
 
 Oyun raylib kütüphanesi kullanılarak yazılmıştır. Raylib açık kaynaklı bir kütüphanedir. Bu kütüphane grafiksel uygulamalar ve oyunlar oluşturmak için yapılmıştır.
 
