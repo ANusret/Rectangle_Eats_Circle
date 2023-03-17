@@ -5,7 +5,7 @@ void oneplayer()
     // window dimension
     int width{600};
     int height{400};
-    InitWindow(width, height, "R_eat_C");
+    InitWindow(width, height, "R_eats_C");
 
     // circle coordinates
     int circle_x{300};
@@ -36,7 +36,7 @@ void oneplayer()
 
     SetTargetFPS(30);
 
-    while (WindowShouldClose() == false)
+    while (!WindowShouldClose())
     {
 
         BeginDrawing();
@@ -111,7 +111,7 @@ void twoplayer()
     // window dimension
     int width{600};
     int height{400};
-    InitWindow(width, height, "R_eat_C");
+    InitWindow(width, height, "R_eats_C");
 
     // circle coordinates
     int circle_x{300};
@@ -139,7 +139,7 @@ void twoplayer()
 
     SetTargetFPS(30);
 
-    while (WindowShouldClose() == false)
+    while (!WindowShouldClose())
     {
 
         BeginDrawing();
@@ -228,17 +228,17 @@ int main()
 {
     int width{600};
     int height{400};
-    InitWindow(width, height, "R_eat_C");
+    InitWindow(width, height, "R_eats_C");
 
     SetTargetFPS(30);
 
-    while (WindowShouldClose() == false)
+    while (!WindowShouldClose())
     {
 
         BeginDrawing();
         ClearBackground(WHITE);
 
-        DrawText("Press q for 1 player mode \nPress e for 2 player mode", 220, 190, 22, BLACK);
+        DrawText("Press q for 1 player mode \nPress e for 2 players mode", 170, 160, 22, BLACK);
 
         if (IsKeyDown(KEY_Q))
         {
